@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60904B60-EEEA-4A54-9DB0-DB78C20FD489}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MilkTea_TâyTây</RootNamespace>
+    <AssemblyName>MilkTea_TâyTây</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailMilkTea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailMilkTea.Designer.cs">
+      <DependentUpon>DetailMilkTea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FreshMilk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FreshMilk.Designer.cs">
+      <DependentUpon>FreshMilk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Special.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Special.Designer.cs">
+      <DependentUpon>Special.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MilkTea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MilkTea.Designer.cs">
+      <DependentUpon>MilkTea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TableMT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableMT.Designer.cs">
+      <DependentUpon>TableMT.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailMilkTea.resx">
+      <DependentUpon>DetailMilkTea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreshMilk.resx">
+      <DependentUpon>FreshMilk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Special.resx">
+      <DependentUpon>Special.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilkTea.resx">
+      <DependentUpon>MilkTea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableMT.resx">
+      <DependentUpon>TableMT.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ftable %28office%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ftable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon1.3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon2.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mon4.4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon12.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mon15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-bubble-tea-2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tra sua mam cay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004-bubble-tea-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-bubble-tea-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-bubble-tea-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-bubble-tea-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\014-bubble-tea-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tra sua tuoi cuoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tra sua nien rang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tra sua tuyet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tra sua pikachu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tra sua 1m57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tra_sua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meo hong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syndra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meo den.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gau truc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fashion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quan quyt.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

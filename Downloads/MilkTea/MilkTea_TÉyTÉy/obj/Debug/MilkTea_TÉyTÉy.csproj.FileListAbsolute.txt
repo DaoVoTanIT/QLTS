@@ -1,0 +1,16 @@
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\bin\Debug\MilkTea_TâyTây.exe.config
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\bin\Debug\MilkTea_TâyTây.exe
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\bin\Debug\MilkTea_TâyTây.pdb
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.csprojAssemblyReference.cache
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.Properties.Resources.resources
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.csproj.GenerateResource.cache
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.exe
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.pdb
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.fDangNhap.resources
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.TableMT.resources
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.Menu.resources
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.DetailMilkTea.resources
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.FreshMilk.resources
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.MilkTea.resources
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.Special.resources
+C:\Users\titeo\source\repos\MilkTea_TâyTây\MilkTea_TâyTây\obj\Debug\MilkTea_TâyTây.Admin.resources
